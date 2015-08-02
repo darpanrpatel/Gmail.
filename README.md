@@ -22,8 +22,7 @@ public class GmailLogin {
 	  driver.findElement(By.id("next")).click();
 	  until(ExpectedConditions.presenceOfElementLocated(By.name("Passwd")));
 	  driver.findElement(By.id("Passwd")).sendKeys("Jalaram23");
-	 // driver.findElement(By.xpath("form/div[2]/div/div[2]/div/div/input[2]")).sendKeys("bittu292518");
-	  //driver.findElement(By.id("signIn")).click();	
+	 
   }
 
 private void until(ExpectedCondition<WebElement> presenceOfElementLocated) {
